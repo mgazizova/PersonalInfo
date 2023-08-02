@@ -13,6 +13,15 @@
 		1163EF332A790C2300EF8C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1163EF312A790C2300EF8C66 /* Main.storyboard */; };
 		1163EF352A790C2500EF8C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1163EF342A790C2500EF8C66 /* Assets.xcassets */; };
 		1163EF382A790C2500EF8C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1163EF362A790C2500EF8C66 /* LaunchScreen.storyboard */; };
+		1163EF402A7916FC00EF8C66 /* ChildTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163EF3F2A7916FC00EF8C66 /* ChildTableViewCell.swift */; };
+		1163EF422A791B5A00EF8C66 /* ChildModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163EF412A791B5A00EF8C66 /* ChildModel.swift */; };
+		1163EF442A7923F200EF8C66 /* ChildTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163EF432A7923F200EF8C66 /* ChildTableHeaderView.swift */; };
+		1163EF462A792B1400EF8C66 /* PersonalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163EF452A792B1400EF8C66 /* PersonalInfoView.swift */; };
+		1163EF482A792F5900EF8C66 /* ClearButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163EF472A792F5900EF8C66 /* ClearButtonView.swift */; };
+		1163EF4A2A79340200EF8C66 /* PersonalInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163EF492A79340200EF8C66 /* PersonalInfoViewModel.swift */; };
+		1163EF4E2A7A782100EF8C66 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163EF4D2A7A782100EF8C66 /* PersonModel.swift */; };
+		1163EF532A7A7BA700EF8C66 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163EF522A7A7BA700EF8C66 /* TextField.swift */; };
+		C80FA057B186A2C6343CB27F /* Pods_Personalnfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6F35A1F616C473CA277621 /* Pods_Personalnfo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,17 @@
 		1163EF342A790C2500EF8C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1163EF372A790C2500EF8C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1163EF392A790C2500EF8C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1163EF3F2A7916FC00EF8C66 /* ChildTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildTableViewCell.swift; sourceTree = "<group>"; };
+		1163EF412A791B5A00EF8C66 /* ChildModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildModel.swift; sourceTree = "<group>"; };
+		1163EF432A7923F200EF8C66 /* ChildTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildTableHeaderView.swift; sourceTree = "<group>"; };
+		1163EF452A792B1400EF8C66 /* PersonalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoView.swift; sourceTree = "<group>"; };
+		1163EF472A792F5900EF8C66 /* ClearButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearButtonView.swift; sourceTree = "<group>"; };
+		1163EF492A79340200EF8C66 /* PersonalInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewModel.swift; sourceTree = "<group>"; };
+		1163EF4D2A7A782100EF8C66 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		1163EF522A7A7BA700EF8C66 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		3A6F35A1F616C473CA277621 /* Pods_Personalnfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Personalnfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E7D65D2DFB0CA439E0E371 /* Pods-Personalnfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personalnfo.release.xcconfig"; path = "Target Support Files/Pods-Personalnfo/Pods-Personalnfo.release.xcconfig"; sourceTree = "<group>"; };
+		98592F8C0D33ED150131B634 /* Pods-Personalnfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Personalnfo.debug.xcconfig"; path = "Target Support Files/Pods-Personalnfo/Pods-Personalnfo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80FA057B186A2C6343CB27F /* Pods_Personalnfo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				1163EF2A2A790C2300EF8C66 /* Personalnfo */,
 				1163EF292A790C2300EF8C66 /* Products */,
+				E1EE7FB8805607EAADF02BE2 /* Pods */,
+				F2CB1E057C6B69CE64CBBF78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +79,9 @@
 		1163EF2A2A790C2300EF8C66 /* Personalnfo */ = {
 			isa = PBXGroup;
 			children = (
+				1163EF502A7A791200EF8C66 /* UI */,
+				1163EF542A7A7CFA00EF8C66 /* ViewModel */,
+				1163EF4F2A7A790200EF8C66 /* Model */,
 				1163EF2B2A790C2300EF8C66 /* AppDelegate.swift */,
 				1163EF2D2A790C2300EF8C66 /* SceneDelegate.swift */,
 				1163EF2F2A790C2300EF8C66 /* ViewController.swift */,
@@ -67,6 +93,60 @@
 			path = Personalnfo;
 			sourceTree = "<group>";
 		};
+		1163EF4F2A7A790200EF8C66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1163EF412A791B5A00EF8C66 /* ChildModel.swift */,
+				1163EF4D2A7A782100EF8C66 /* PersonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1163EF502A7A791200EF8C66 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1163EF512A7A7B9E00EF8C66 /* Component */,
+				1163EF3F2A7916FC00EF8C66 /* ChildTableViewCell.swift */,
+				1163EF472A792F5900EF8C66 /* ClearButtonView.swift */,
+				1163EF432A7923F200EF8C66 /* ChildTableHeaderView.swift */,
+				1163EF452A792B1400EF8C66 /* PersonalInfoView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1163EF512A7A7B9E00EF8C66 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1163EF522A7A7BA700EF8C66 /* TextField.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		1163EF542A7A7CFA00EF8C66 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1163EF492A79340200EF8C66 /* PersonalInfoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1EE7FB8805607EAADF02BE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98592F8C0D33ED150131B634 /* Pods-Personalnfo.debug.xcconfig */,
+				43E7D65D2DFB0CA439E0E371 /* Pods-Personalnfo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2CB1E057C6B69CE64CBBF78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A6F35A1F616C473CA277621 /* Pods_Personalnfo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1163EF3C2A790C2500EF8C66 /* Build configuration list for PBXNativeTarget "Personalnfo" */;
 			buildPhases = (
+				87274FF2C3424611F9DEF7C0 /* [CP] Check Pods Manifest.lock */,
 				1163EF242A790C2300EF8C66 /* Sources */,
 				1163EF252A790C2300EF8C66 /* Frameworks */,
 				1163EF262A790C2300EF8C66 /* Resources */,
@@ -133,14 +214,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		87274FF2C3424611F9DEF7C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Personalnfo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1163EF242A790C2300EF8C66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1163EF422A791B5A00EF8C66 /* ChildModel.swift in Sources */,
+				1163EF532A7A7BA700EF8C66 /* TextField.swift in Sources */,
 				1163EF302A790C2300EF8C66 /* ViewController.swift in Sources */,
+				1163EF4E2A7A782100EF8C66 /* PersonModel.swift in Sources */,
 				1163EF2C2A790C2300EF8C66 /* AppDelegate.swift in Sources */,
+				1163EF462A792B1400EF8C66 /* PersonalInfoView.swift in Sources */,
+				1163EF402A7916FC00EF8C66 /* ChildTableViewCell.swift in Sources */,
+				1163EF4A2A79340200EF8C66 /* PersonalInfoViewModel.swift in Sources */,
 				1163EF2E2A790C2300EF8C66 /* SceneDelegate.swift in Sources */,
+				1163EF482A792F5900EF8C66 /* ClearButtonView.swift in Sources */,
+				1163EF442A7923F200EF8C66 /* ChildTableHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +396,7 @@
 		};
 		1163EF3D2A790C2500EF8C66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98592F8C0D33ED150131B634 /* Pods-Personalnfo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +410,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,14 +418,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mgazizova.Personalnfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1163EF3E2A790C2500EF8C66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E7D65D2DFB0CA439E0E371 /* Pods-Personalnfo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +443,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +451,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mgazizova.Personalnfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
